@@ -25,9 +25,12 @@ renv/staging/
 # (renv.lock is NOT ignored — it should be committed)
 
 # Derived / large data — regenerate these by running code instead of committing them
-data/derived/
+# (ignore the contents but keep the empty folders via .gitkeep)
+data/derived/*
+!data/derived/.gitkeep
 data/intermediate/
-output/
+output/*
+!output/.gitkeep
 *.tif
 *.tiff
 *.gpkg
