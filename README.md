@@ -33,6 +33,7 @@ Students at every level — from undergraduates who have never taken a data scie
 | [`handbook/03-working-with-the-assistant.md`](handbook/03-working-with-the-assistant.md) | Day-to-day work patterns that keep you in the driver's seat |
 | [`handbook/04-documenting-ai-use.md`](handbook/04-documenting-ai-use.md) | Lightweight, honest records of how you used AI |
 | [`reference/lab-context.md`](reference/lab-context.md) | Lab research themes, glossary, and canonical data/tools |
+| [`reference/rmbl-data-hub.md`](reference/rmbl-data-hub.md) | The RMBL Data Hub tools (Knowledge Commons, SDP Browser, Compute Hub) and how to use them |
 | [`reference/evidence-base.md`](reference/evidence-base.md) | The cited research behind *why* we work this way |
 
 ## Templates

@@ -43,8 +43,14 @@ The global lab glossary (SDP, COG, CHESS, catalog IDs, `EPSG:32613`, TimeSeriesT
 
 ## Canonical data & tools
 
+The lab runs the **RMBL Data Hub** ([data.rmbl.org](https://data.rmbl.org)) — a Knowledge Commons (literature/data search + an MCP server for the assistant), the SDP Browser (no-code data discovery + code generation), and the Compute Hub (cloud analysis). You're encouraged but not required to use them — see **[`rmbl-data-hub.md`](rmbl-data-hub.md)** for what each does and how to get started.
+
 | Resource | What / where |
 |----------|--------------|
+| **RMBL Data Hub** | [data.rmbl.org](https://data.rmbl.org) — Knowledge Commons, SDP Browser, Compute Hub. See [`rmbl-data-hub.md`](rmbl-data-hub.md) |
+| **Knowledge Commons** | [rmblknowledgecommons.org](https://rmblknowledgecommons.org) — search literature/datasets; **MCP server** at `/api/mcp` grounds the assistant in real sources |
+| **SDP Browser** | [sdpbrowser.org](https://sdpbrowser.org) — discover/preview/extract SDP rasters, get `rSDP`/`pySDP` recipes |
+| **Compute Hub** | [rmblcomputehub.org](https://rmblcomputehub.org) — cloud JupyterLab/RStudio next to the data (GitHub login, allowlist) |
 | **RMBL Spatial Data Platform** | COGs on `s3://rmbl-sdp/` (us-east-2); access via **`rSDP`** (R) or **`pySDP`** (Python) |
 | **rSDP / pySDP** | The lab client packages — start here for any SDP raster work |
 | **RMBL phenology data** | CaraDonna plots: [osf.io/zq36h](https://osf.io/zq36h/) · Breckheimer spatial wildflower phenology: [doi.org/10.6073](https://doi.org/10.6073/) (EDI) |

@@ -29,6 +29,13 @@ Work top to bottom. None of this should take more than an afternoon or two. Ask 
 - [ ] Read [`reference/lab-context.md`](../reference/lab-context.md) — the research themes, glossary, and where the canonical data lives.
 - [ ] Skim the `rSDP` README if your project touches SDP rasters.
 
+## Explore the RMBL Data Hub (optional but recommended)
+- [ ] Read [`reference/rmbl-data-hub.md`](../reference/rmbl-data-hub.md) for what each tool does.
+- [ ] Try a search on the [Knowledge Commons](https://rmblknowledgecommons.org) for your topic.
+- [ ] If your assistant supports MCP, connect the Knowledge Commons server (`https://rmblknowledgecommons.org/api/mcp`) so it cites real sources.
+- [ ] Browse a layer on the [SDP Browser](https://sdpbrowser.org) and generate an `rSDP` recipe — then practice the explanation gate on the generated code.
+- [ ] If you'll need cloud compute, ask your supervisor to add your GitHub username to the [Compute Hub](https://rmblcomputehub.org) allowlist.
+
 ## Start your project
 - [ ] Copy [`templates/project-skeleton/`](../templates/project-skeleton/) into a new folder under `~/code/`.
 - [ ] Make it a Git repo and push it to the lab org (see the Git guide, "Starting a repository").
