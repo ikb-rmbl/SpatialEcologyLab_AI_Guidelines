@@ -1,0 +1,6 @@
+# Top-level repo is all docs/templates. Just keep OS + editor clutter out.
+.DS_Store
+Thumbs.db
+.Rproj.user/
+.Rhistory
+.vscode/

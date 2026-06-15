@@ -1,0 +1,51 @@
+---
+title: "<Project Title>"
+author: "<Your Name>"
+date: today
+format: html
+---
+
+```{r setup}
+#| message: false
+library(tidyverse)
+# library(terra)   # uncomment for raster work
+# library(sf)      # uncomment for vector work
+
+source("R/functions.R")  # your own functions live here
+```
+
+# Question
+
+<!-- State the scientific question in plain language. What are you trying to find out? -->
+
+# Data
+
+<!-- Where does the data come from? What does one row / one pixel represent? -->
+
+```{r load-data}
+# raw <- read_csv("data/raw/your_data.csv")
+```
+
+# Approach
+
+<!-- Before you write analysis code, write a sentence or two here describing your plan.
+     This is also the prompt you give the assistant — and the thing you should be able to
+     explain to a labmate. If you can't write the plan, you're not ready to ask the AI to
+     write the code. -->
+
+# Analysis
+
+```{r}
+
+```
+
+# Findings
+
+<!-- What did you learn? In your own words. -->
+
+---
+
+<!-- AI-use note (see handbook/04-documenting-ai-use.md):
+     Briefly, how did the assistant help on this analysis? e.g.
+     "AI helped debug a CRS mismatch and suggested the group_by/summarise structure;
+      I wrote the plan and verified the output against the 2022 field counts." -->
