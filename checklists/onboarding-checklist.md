@@ -32,7 +32,7 @@ Work top to bottom. None of this should take more than an afternoon or two. Ask 
 ## Explore the RMBL Data Hub (optional but recommended)
 - [ ] Read [`reference/rmbl-data-hub.md`](../reference/rmbl-data-hub.md) for what each tool does.
 - [ ] Try a search on the [Knowledge Commons](https://rmblknowledgecommons.org) for your topic.
-- [ ] Connect the Knowledge Commons MCP server to Posit Assistant so it cites real sources — follow "Connecting the Commons to Posit Assistant" in [`reference/rmbl-data-hub.md`](../reference/rmbl-data-hub.md). (If you start from the project skeleton, it's already wired in `.vscode/settings.json`.)
+- [ ] Connect the Knowledge Commons MCP server to Posit Assistant so it cites real sources — follow "Connecting the Commons to Posit Assistant" in [`reference/rmbl-data-hub.md`](../reference/rmbl-data-hub.md). **This must be done in User Settings on your machine** — it doesn't carry over from the project skeleton.
 - [ ] Browse a layer on the [SDP Browser](https://sdpbrowser.org) and generate an `rSDP` recipe — then practice the explanation gate on the generated code.
 - [ ] If you'll need cloud compute, ask your supervisor to add your GitHub username to the [Compute Hub](https://rmblcomputehub.org) allowlist.
 

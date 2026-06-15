@@ -31,7 +31,7 @@ A searchable, connected index of ~5,000 publications, ~1,400 datasets, plus thes
 
 ### Connecting the Commons to Posit Assistant (Positron)
 
-1. Open the Command Palette (`Cmd/Ctrl+Shift+P`) → **Preferences: Open User Settings (JSON)**.
+1. Open the Command Palette (`Cmd/Ctrl+Shift+P`) → **Preferences: Open User Settings (JSON)**. On a Mac you can also edit the file directly at `~/Library/Application Support/Positron/User/settings.json`.
 2. Add the `assistant.mcpServers` block below to the top-level object (merge it with whatever's already there — don't create a second `{ }`):
 
    ```jsonc
@@ -51,7 +51,7 @@ A searchable, connected index of ~5,000 publications, ~1,400 datasets, plus thes
 3. Save, then **reload Positron** (Command Palette → *Developer: Reload Window*, or just restart).
 4. **Confirm it worked:** ask the assistant something like *"Search the RMBL Knowledge Commons for papers on snowmelt timing and list three with links."* If it returns real records with URLs, you're connected.
 
-**Project-scoped alternative (handy for shared project repos):** the same `assistant.mcpServers` block can go in a **`.vscode/settings.json`** at your project root instead of (or in addition to) User Settings — so anyone who clones the project gets the Commons wired up. The lab's [project skeleton](../templates/project-skeleton/) ships with exactly this file. *Project-scoped MCP is newer and not fully confirmed across Positron versions — if the assistant doesn't pick it up, fall back to User Settings, which always works.*
+**Note on project-scoped settings:** project-level `.vscode/settings.json` does not currently propagate MCP server config to the Posit Assistant. User Settings is the only reliable place to put the `assistant.mcpServers` block — so every student needs to do this step once on their own machine.
 
 > **Privacy note:** with this enabled, the queries the assistant runs against the Commons leave your machine and hit RMBL's server. That's RMBL's own public research corpus, so it's fine for research use — just know it's a network call, like any web search.
 
