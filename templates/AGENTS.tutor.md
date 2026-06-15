@@ -12,6 +12,8 @@
 [e.g. Summarize snowmelt timing by elevation across RMBL plots, 2018–2024.]
 
 ## Stack & layout
+<!-- Pull this "plumbing" from reference/lab-context.md. Do NOT write in the science
+     you're here to figure out (interpretation, modeling choices) — that's PROJECT-BRIEF.md. -->
 - Language: R (in Positron).
 - Key packages: [tidyverse, terra, sf, ...].
 - Layout: reusable functions in `R/`, analysis in `analysis.qmd`, inputs in `data/raw/`.

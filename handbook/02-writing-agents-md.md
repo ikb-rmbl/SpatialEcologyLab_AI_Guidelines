@@ -28,6 +28,19 @@ Sections 1–3 and 5 make the assistant *useful*. Section 4 makes it *good for y
 
 ---
 
+## What scientific context to include — and what to leave out
+
+Your project has a lot of scientific context. The temptation is to pour all of it into `AGENTS.md` so the assistant "really understands the project." **Resist that** — and the reason is pedagogical, not stylistic:
+
+> **Include context that removes *friction*. Leave out context that removes *thinking*.**
+
+- **Friction (put it in):** the *plumbing* — which packages and data sources, the CRS, where files live, sensor/file conventions, the structure of a model you're using. This makes the assistant a capable tool. Pull these from [`reference/lab-context.md`](../reference/lab-context.md).
+- **Thinking (keep it out):** the *science* — why a variable matters, which covariates to model, how to interpret a result, whether a finding is real. If you write these into `AGENTS.md`, the assistant arrives already "getting it," and you've handed over exactly the judgment the summer is meant to build.
+
+A good `AGENTS.md` makes the assistant fluent in your project's *machinery* while leaving its *meaning* to you. Your **[`PROJECT-BRIEF.md`](../templates/PROJECT-BRIEF.md)** has two lists at the bottom that sort your context into these piles — fill that in first, then copy only the "plumbing" pile into `AGENTS.md`.
+
+---
+
 ## The "How to help me learn" section
 
 This is where you tell the assistant to behave like a mentor. The exact wording matters less than the intent, but here are the moves that have evidence behind them (see [`reference/evidence-base.md`](../reference/evidence-base.md)):

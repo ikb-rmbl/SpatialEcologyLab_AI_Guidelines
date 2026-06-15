@@ -16,6 +16,7 @@
 | `output/` | Figures, tables, reports — **gitignored** |
 | `analysis.qmd` | The main narrative analysis |
 | `AGENTS.md` | Instructions for the AI assistant on this project |
+| `PROJECT-BRIEF.md` | What this project is, and what context the AI gets vs. what you keep |
 
 ## Where the big data lives
 

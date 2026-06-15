@@ -25,11 +25,16 @@ Work top to bottom. None of this should take more than an afternoon or two. Ask 
 - [ ] Confirm your commit shows up on GitHub.
 - [ ] Memorize the six commands at the end of [`handbook/01-git-and-github.md`](../handbook/01-git-and-github.md).
 
+## Get oriented to the lab's science
+- [ ] Read [`reference/lab-context.md`](../reference/lab-context.md) — the research themes, glossary, and where the canonical data lives.
+- [ ] Skim the `rSDP` README if your project touches SDP rasters.
+
 ## Start your project
 - [ ] Copy [`templates/project-skeleton/`](../templates/project-skeleton/) into a new folder under `~/code/`.
 - [ ] Make it a Git repo and push it to the lab org (see the Git guide, "Starting a repository").
 - [ ] Confirm your `.gitignore` is working: add a dummy big file to `output/` and check `git status` ignores it.
-- [ ] Open the `AGENTS.md` (it's tutor mode by default) and fill in the project/stack sections. Commit it.
+- [ ] Fill in `PROJECT-BRIEF.md` with your supervisor — including the two lists at the bottom (plumbing vs. thinking).
+- [ ] Open the `AGENTS.md` (it's tutor mode by default), fill in project/stack, and copy in **only** the "plumbing" pile from your brief. Commit both.
 
 ## Set up good AI habits
 - [ ] Read [`handbook/03-working-with-the-assistant.md`](../handbook/03-working-with-the-assistant.md) and note the four patterns.

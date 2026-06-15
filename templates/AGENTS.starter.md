@@ -13,6 +13,8 @@
 [e.g. Upscale leaf trait estimates to landscape scale using SDP rasters.]
 
 ## Stack & layout
+<!-- Pull this "plumbing" from reference/lab-context.md. Keep the science (interpretation,
+     modeling choices) in PROJECT-BRIEF.md / your head, not here. -->
 - Language: R (in Positron).
 - Key packages: [tidyverse, terra, sf, stars, ...].
 - Layout: reusable functions in `R/`, analysis in `analysis.qmd`, inputs in `data/raw/`.

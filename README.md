@@ -32,6 +32,7 @@ Students at every level — from undergraduates who have never taken a data scie
 | [`handbook/02-writing-agents-md.md`](handbook/02-writing-agents-md.md) | How to write an `AGENTS.md` that helps you *and* makes you a better scientist |
 | [`handbook/03-working-with-the-assistant.md`](handbook/03-working-with-the-assistant.md) | Day-to-day work patterns that keep you in the driver's seat |
 | [`handbook/04-documenting-ai-use.md`](handbook/04-documenting-ai-use.md) | Lightweight, honest records of how you used AI |
+| [`reference/lab-context.md`](reference/lab-context.md) | Lab research themes, glossary, and canonical data/tools |
 | [`reference/evidence-base.md`](reference/evidence-base.md) | The cited research behind *why* we work this way |
 
 ## Templates
@@ -41,6 +42,7 @@ Students at every level — from undergraduates who have never taken a data scie
 | [`templates/project-skeleton/`](templates/project-skeleton/) | A minimal R analysis project you copy to start |
 | [`templates/AGENTS.starter.md`](templates/AGENTS.starter.md) | A fill-in-the-blanks `AGENTS.md` for a brand-new project |
 | [`templates/AGENTS.tutor.md`](templates/AGENTS.tutor.md) | A "teach me, don't just do it" `AGENTS.md` for when you're learning a new skill |
+| [`templates/PROJECT-BRIEF.md`](templates/PROJECT-BRIEF.md) | Distill your project — and sort its context into "plumbing for the AI" vs. "thinking you keep" |
 
 ---
 
