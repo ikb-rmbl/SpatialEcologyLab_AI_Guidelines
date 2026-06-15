@@ -50,7 +50,7 @@ The assistant is confidently wrong on a regular basis. Never let "the AI said so
 
 Catching the assistant being wrong is one of the most valuable skills you'll build this summer. It only develops if you look.
 
-> **Tip — make the assistant cite real sources.** For anything involving the literature, connect your assistant to the **RMBL Knowledge Commons** MCP server (see [`reference/rmbl-data-hub.md`](../reference/rmbl-data-hub.md)). It will then ground answers in actual RMBL papers and datasets with links you can check, instead of inventing plausible-sounding citations — which is exactly what un-grounded assistants do. You still read the source; the tool just stops the AI from making it up.
+> **Tip — make the assistant cite real sources.** For anything involving the literature, connect Posit Assistant to the **RMBL Knowledge Commons** MCP server (a few lines in your settings — see ["Connecting the Commons to Posit Assistant" in `reference/rmbl-data-hub.md`](../reference/rmbl-data-hub.md)). It will then ground answers in actual RMBL papers and datasets with links you can check, instead of inventing plausible-sounding citations — which is exactly what un-grounded assistants do. You still read the source; the tool just stops the AI from making it up.
 
 ---
 

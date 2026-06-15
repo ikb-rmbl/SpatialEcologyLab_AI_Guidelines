@@ -24,10 +24,36 @@ A searchable, connected index of ~5,000 publications, ~1,400 datasets, plus thes
 - **Citation export** in RIS and BibTeX (whole result sets at once) → straight into Zotero/EndNote.
 
 **For your AI assistant (the high-leverage part):**
-- There's an **MCP server** at `https://rmblknowledgecommons.org/api/mcp`. If your assistant supports MCP (many do), connecting it lets the assistant **search the Commons and cite real RMBL sources instead of making things up.** This is the single best way to use AI for literature here — it turns "the AI said so" into "the AI found this paper, which says so," with a link you can check.
+- There's an **MCP server** at `https://rmblknowledgecommons.org/api/mcp`. The Posit Assistant in Positron supports MCP, so you can connect it (steps below) and the assistant will **search the Commons and cite real RMBL sources instead of making things up.** This is the single best way to use AI for literature here — it turns "the AI said so" into "the AI found this paper, which says so," with a link you can check.
 - There's also a plain **REST API** at `https://rmblknowledgecommons.org/api/v1` (rate-limited, no key) if you want to query it from code, and a `/llms.txt` discovery file.
 
 > **Why this matters for the way we work:** grounding the assistant in the Commons is the "verify against reality" pattern ([handbook/03](../handbook/03-working-with-the-assistant.md)) built into the tool. It still doesn't read the papers *for* you — you do that — but it stops the assistant from inventing citations, which it will otherwise do confidently.
+
+### Connecting the Commons to Posit Assistant (Positron)
+
+1. Open the Command Palette (`Cmd/Ctrl+Shift+P`) → **Preferences: Open User Settings (JSON)**.
+2. Add the `assistant.mcpServers` block below to the top-level object (merge it with whatever's already there — don't create a second `{ }`):
+
+   ```jsonc
+   {
+     // ...your existing settings...
+     "assistant.enabled": true,
+     "positron.assistant.enable": true,
+     "assistant.mcpServers": {
+       "rmbl-knowledge-commons": {
+         "url": "https://rmblknowledgecommons.org/api/mcp",
+         "type": "remote",
+         "transport": "http"
+       }
+     }
+   }
+   ```
+3. Save, then **reload Positron** (Command Palette → *Developer: Reload Window*, or just restart).
+4. **Confirm it worked:** ask the assistant something like *"Search the RMBL Knowledge Commons for papers on snowmelt timing and list three with links."* If it returns real records with URLs, you're connected.
+
+**Project-scoped alternative (handy for shared project repos):** the same `assistant.mcpServers` block can go in a **`.vscode/settings.json`** at your project root instead of (or in addition to) User Settings — so anyone who clones the project gets the Commons wired up. The lab's [project skeleton](../templates/project-skeleton/) ships with exactly this file. *Project-scoped MCP is newer and not fully confirmed across Positron versions — if the assistant doesn't pick it up, fall back to User Settings, which always works.*
+
+> **Privacy note:** with this enabled, the queries the assistant runs against the Commons leave your machine and hit RMBL's server. That's RMBL's own public research corpus, so it's fine for research use — just know it's a network call, like any web search.
 
 If you spot a wrong attribution or duplicate, you can flag it on the site; a curator fixes it.
 
