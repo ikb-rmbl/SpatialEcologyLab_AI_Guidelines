@@ -8,6 +8,8 @@ We keep a light, honest record of how the assistant helped. This is **not** surv
 
 > **The golden rule of disclosure here:** *Using the assistant is never the problem. Hiding that you used it is the only problem.* There is no penalty for "the AI wrote most of this function." There's a real one for pretending it didn't.
 
+> **Program participants: the lightweight notes below are necessary but not sufficient.** The RMBL Undergraduate Program requires you to **formally cite** AI use ([Purdue format](https://guides.lib.purdue.edu/c.php?g=1371380&p=10135074)) **and describe how you used it in the methods section** of any program product — and *failure to cite is a policy violation with consequences.* Keep the lab's lightweight notes as you work (they make the formal citation easy to write later), and cite formally on anything you submit or present. When in doubt, cite. See [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
+
 ---
 
 ## Why we keep it lightweight (and why mandates backfire)

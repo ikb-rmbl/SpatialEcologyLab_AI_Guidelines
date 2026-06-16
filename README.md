@@ -32,6 +32,7 @@ Students at every level — from undergraduates who have never taken a data scie
 | [`handbook/02-writing-agents-md.md`](handbook/02-writing-agents-md.md) | How to write an `AGENTS.md` that helps you *and* makes you a better scientist |
 | [`handbook/03-working-with-the-assistant.md`](handbook/03-working-with-the-assistant.md) | Day-to-day work patterns that keep you in the driver's seat |
 | [`handbook/04-documenting-ai-use.md`](handbook/04-documenting-ai-use.md) | Lightweight, honest records of how you used AI |
+| [`handbook/05-rmbl-ed-policy.md`](handbook/05-rmbl-ed-policy.md) | How this fits the RMBL Undergraduate Program AI policy (read if you're a program participant) |
 | [`reference/lab-context.md`](reference/lab-context.md) | Lab research themes, glossary, and canonical data/tools |
 | [`reference/rmbl-data-hub.md`](reference/rmbl-data-hub.md) | The RMBL Data Hub tools (Knowledge Commons, SDP Browser, Compute Hub) and how to use them |
 | [`reference/evidence-base.md`](reference/evidence-base.md) | The cited research behind *why* we work this way |

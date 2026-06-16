@@ -10,6 +10,8 @@ This is the practical core of the handbook: the actual moves you make, day to da
 
 If you internalize four things, you've got it.
 
+> **Program participants — two hard limits before you start.** The RMBL Undergraduate Program AI policy **prohibits uploading any data** to AI tools and bars AI from **writing your prose**. So: share your *plan, code, and a description of your data* with the assistant — never the data itself (don't paste rows, don't let it read your raw data files), and never have it write your reports. The patterns below already work this way. Details and how to stay compatible: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
+
 ### Pattern 1 — Attempt first (the 10-minute rule)
 
 Before you ask the assistant for an answer, **spend ~10 minutes trying it yourself.** Sketch the plan, write the first attempt, predict what the code will do.
