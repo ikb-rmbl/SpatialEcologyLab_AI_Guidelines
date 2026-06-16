@@ -13,8 +13,8 @@ RMBL Ed Program AI Policy  =  the floor (the minimum)
 This lab handbook          =  may be stricter, never looser
 ```
 
-- A lab can be **more** restrictive than the program policy, but **not less**. Where this handbook looks more permissive than the program policy, **the program policy wins.**
-- When two rules differ, **follow the stricter one.**
+- A lab can be **more** restrictive than the program policy, but **not less**. Where this handbook looks more permissive, **the program policy wins** — with **one explicit, reasoned exception** the lab has made about *data sharing with workspace-aware tools*, explained in §1 below.
+- Everywhere else, when two rules differ, **follow the stricter one.**
 - When you're unsure whether a use is allowed, **ask** — your supervisor or the program coordinators. The policy explicitly invites this, and "I asked first" is always the right move.
 
 > Get the official, current policy text from the program coordinators (it may be updated). The summary below is for orientation, not a substitute.
@@ -33,7 +33,7 @@ The program **permits** generative AI (ChatGPT, Claude, Gemini, etc.) for **cert
 
 **🚫 Not allowed**
 - **Composition or writing of any pieces of the program** (your written products)
-- **Uploading any data**
+- **Uploading any data** — *see §1 for how this lab reads this provision in its open-data context*
 
 **📌 Required if you use AI at all**
 - **Cite the use** (the policy points to the [Purdue AI citation guide](https://guides.lib.purdue.edu/c.php?g=1371380&p=10135074)) **and describe how you used it in the methods section** of any product.
@@ -61,21 +61,25 @@ So most of this handbook is simply *how* to live up to the program policy. The d
 
 ## The three places to be careful (apparent conflicts, resolved)
 
-### 1. Do not upload your data to AI tools
+### 1. Sharing data with the assistant — the lab's reasoned position
 
-**This is the one most likely to trip you up,** because a coding assistant naturally wants to look at your data — and the program flatly **prohibits uploading any data.**
+Read literally, the program policy prohibits "uploading any data." **This lab reads that provision in light of its purpose** — keeping *sensitive or proprietary* data from leaving RMBL — and in our setting that concern doesn't apply:
 
-What that means in practice when you work with the assistant:
+- The lab works only with **open, published, or otherwise non-proprietary data** — that's the lab's standing data policy.
+- We use **workspace-aware tools and infrastructure with appropriate protections** (Positron and the [Data Hub](../reference/rmbl-data-hub.md)), where the assistant seeing your data is a designed, contained part of the workflow.
+- A coding assistant that *can't* see your data is sharply less useful, and hand-describing every dataset is real friction with little protective benefit when the data is already open.
 
-- **Don't paste data rows** (or whole files) into the chat.
-- **Don't ask the assistant to read your raw data files.** Agentic assistants (including Posit Assistant) can pull files from your workspace into the model's context — that counts as uploading. Keep raw data out of what the assistant can see, or describe it instead.
-- **Describe the *structure* instead of showing the data:** column names and types, units, what one row means. The assistant can write correct `dplyr`/`terra` code from a schema — it doesn't need your actual values.
-- **Use a tiny *synthetic* example** to illustrate a problem ("suppose I have a tibble with `plot`, `elev_m`, `melt_doy`…"), not your real dataset.
-- **Public SDP data** is already published, but the policy says "any data" — so don't assume it's exempt. If you think a specific case is reasonable, **ask the coordinators first** rather than deciding for yourself.
+**So in this lab, letting the assistant see the data in your workspace is permitted.** You can point it at your files, paste a few rows to debug, and let it inspect your data frames. (This is the one place the lab *interprets* the policy rather than simply matching it — see the governing rule above.)
 
-> This does *not* cripple your workflow — it just changes *what you share*. You can still get help with every line of code; you describe the data rather than handing it over. Most of the worked examples in [03](03-working-with-the-assistant.md) already work this way (you share your *plan*, not your data).
->
-> **The Knowledge Commons MCP is fine.** Connecting the assistant to the [Knowledge Commons](../reference/rmbl-data-hub.md) sends your *search queries* to RMBL's own public literature server — it does **not** upload your research data. (Still, don't type sensitive data into a search box.)
+**Still off-limits — never share these with any AI tool:**
+- Embargoed or not-yet-published data you've agreed to keep private
+- Data from outside collaborators that came to you with restrictions
+- Human-subjects data or any personally identifying information (PII)
+- Anything you don't have the rights to share
+
+> **Program participants:** if your project involves *any* data that isn't clearly open — restricted, embargoed, collaborator-owned, human-subjects — treat upload as prohibited and **confirm with your supervisor or the program coordinators before sharing it.** When you're unsure whether your data counts as "open," ask first.
+
+> **The Knowledge Commons MCP** sends your *search queries* to RMBL's own public literature server — it doesn't transmit your research data either way. (Still, don't type anything sensitive into a search box.)
 
 ### 2. AI may help you with code — not write your prose
 
@@ -104,10 +108,10 @@ How to reconcile them:
 
 ## Quick reference — if you're a program participant
 
-- [ ] I follow the **RMBL Ed AI Policy as my minimum**; the lab handbook only adds *more* care, never less.
-- [ ] I **don't upload data** — I describe its structure or use synthetic examples.
+- [ ] I follow the **RMBL Ed AI Policy as my minimum** (with the lab's one reasoned exception on data sharing, §1).
+- [ ] I can let the assistant see my **open / lab workspace data** — but I keep **embargoed, restricted, collaborator-owned, or human-subjects data** out of any AI tool, and **ask if unsure**.
 - [ ] I use AI for **code and understanding**, **not** to write my prose.
 - [ ] I keep **lightweight notes** as I work, and **formally cite + describe in methods** for any program product.
 - [ ] When I'm unsure, **I ask** before I act.
 
-> The two policies want the same thing: that you leave this summer **more capable on your own**, with an honest record of how you got there. Follow the stricter rule, cite your use, keep your data and your writing your own, and you're aligned with both.
+> The two policies want the same thing: that you leave this summer **more capable on your own**, with an honest record of how you got there. Mind the policy (follow the stricter rule where they differ), cite your use, keep *sensitive* data and your own writing yours, and you're aligned with both.

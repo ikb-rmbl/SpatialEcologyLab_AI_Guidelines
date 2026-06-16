@@ -18,7 +18,7 @@ So the lab's deal is simple:
 
 The goal is not to avoid AI. It's to use it the way a good mentor uses it with a student: to remove dead-ends and accelerate understanding, while leaving the actual thinking — the part that makes you better — to you.
 
-> **In the RMBL Undergraduate Program?** That program has its own AI policy, and it sets the rules you must follow — most importantly: **don't upload data, don't let AI write your prose, and formally cite any AI use.** This handbook is fully compatible with it (and adds more care), but read **[`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md)** to see exactly how they fit together before you start.
+> **In the RMBL Undergraduate Program?** That program has its own AI policy that sets rules you must follow — most importantly: **don't let AI write your prose, formally cite any AI use, and keep sensitive data out of AI tools.** Read **[`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md)** for how the lab's approach fits with it — including the lab's position on letting the assistant see your *open* workspace data — before you start.
 
 ---
 

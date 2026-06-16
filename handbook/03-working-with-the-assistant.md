@@ -10,7 +10,7 @@ This is the practical core of the handbook: the actual moves you make, day to da
 
 If you internalize four things, you've got it.
 
-> **Program participants — two hard limits before you start.** The RMBL Undergraduate Program AI policy **prohibits uploading any data** to AI tools and bars AI from **writing your prose**. So: share your *plan, code, and a description of your data* with the assistant — never the data itself (don't paste rows, don't let it read your raw data files), and never have it write your reports. The patterns below already work this way. Details and how to stay compatible: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
+> **Program participants — before you start.** The RMBL Undergraduate Program AI policy bars AI from **writing your prose** and requires you to **cite AI use**. On data: this lab lets the assistant see your **open / lab workspace data**, but keep **sensitive, embargoed, collaborator-restricted, or human-subjects data out of any AI tool** (ask if unsure). Full details and the reasoning: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
 
 ### Pattern 1 — Attempt first (the 10-minute rule)
 
