@@ -33,6 +33,7 @@ Students at every level — from undergraduates who have never taken a data scie
 | [`handbook/03-working-with-the-assistant.md`](handbook/03-working-with-the-assistant.md) | Day-to-day work patterns that keep you in the driver's seat |
 | [`handbook/04-documenting-ai-use.md`](handbook/04-documenting-ai-use.md) | Lightweight, honest records of how you used AI |
 | [`handbook/05-rmbl-ed-policy.md`](handbook/05-rmbl-ed-policy.md) | How this fits the RMBL Undergraduate Program AI policy (read if you're a program participant) |
+| [`handbook/06-spec-driven-development.md`](handbook/06-spec-driven-development.md) | Spec-first workflow for bigger projects (for grad students / senior techs) |
 | [`reference/lab-context.md`](reference/lab-context.md) | Lab research themes, glossary, and canonical data/tools |
 | [`reference/rmbl-data-hub.md`](reference/rmbl-data-hub.md) | The RMBL Data Hub tools (Knowledge Commons, SDP Browser, Compute Hub) and how to use them |
 | [`reference/evidence-base.md`](reference/evidence-base.md) | The cited research behind *why* we work this way |
@@ -45,6 +46,7 @@ Students at every level — from undergraduates who have never taken a data scie
 | [`templates/AGENTS.starter.md`](templates/AGENTS.starter.md) | A fill-in-the-blanks `AGENTS.md` for a brand-new project |
 | [`templates/AGENTS.tutor.md`](templates/AGENTS.tutor.md) | A "teach me, don't just do it" `AGENTS.md` for when you're learning a new skill |
 | [`templates/PROJECT-BRIEF.md`](templates/PROJECT-BRIEF.md) | Distill your project — and sort its context into "plumbing for the AI" vs. "thinking you keep" |
+| [`templates/SPEC.md`](templates/SPEC.md) | Spec one substantial build (pipeline/package) before the assistant implements it |
 
 ---
 

@@ -28,6 +28,8 @@ State your plan **before** you ask for code. In an analysis, write it into the `
 
 This does three things: it forces *you* to do the thinking, it gives the assistant the context to actually help, and it turns a "write my code" request into a "check my reasoning" request. If you can't write the plan, you're not ready for the code — you're ready to *learn the concept*, which is Pattern 4.
 
+> **For bigger builds, this pattern grows up into a written spec.** When a project spans days and many moving parts, a one-line plan isn't enough — you write a durable `SPEC.md` and have the assistant implement against it. That's [spec-driven development](06-spec-driven-development.md), aimed at grad students and senior techs.
+
 ### Pattern 3 — The explanation gate (the most important one)
 
 **Before any AI-generated code enters your project, explain it — out loud or in a comment — in terms of cause and effect. Not "it filters the data" but "it drops rows where `quality < 3` *because* those are flagged sensor errors that would bias the mean upward."**

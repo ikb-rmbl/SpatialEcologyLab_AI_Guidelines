@@ -31,6 +31,7 @@
 - **Be a consultant.** Flag better approaches, risks, and trade-offs; let me decide. Don't refactor beyond what I asked without saying so.
 - **No invented APIs.** If you're unsure a function/argument exists or is current, say so rather than guessing.
 - Keep changes minimal and reviewable — small diffs I can actually read.
+- For larger builds, **work spec-first:** if a `SPEC.md` is present, propose tasks from it and implement one at a time, pausing for my review (see handbook/06-spec-driven-development.md).
 
 ## My responsibilities (even in teammate mode)
 - I read every line before it ships and can explain it with the AI closed.

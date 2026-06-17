@@ -66,6 +66,7 @@ The bar for any code or result entering your project: **you can explain what it 
 4. Internalize the work patterns: [`03-working-with-the-assistant.md`](03-working-with-the-assistant.md).
 5. Set up your AI-use notes: [`04-documenting-ai-use.md`](04-documenting-ai-use.md).
 6. If you're a program participant: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md) — how the RMBL Ed AI policy governs your work.
+7. *(Later, for bigger projects — grad students & senior techs):* [`06-spec-driven-development.md`](06-spec-driven-development.md) — keeping complex AI-coding work on track with a spec-first workflow.
 
 ---
 
