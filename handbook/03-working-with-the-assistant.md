@@ -8,7 +8,7 @@ This is the practical core of the handbook: the actual moves you make, day to da
 
 ## The four patterns
 
-If you internalize four things, you've got it.
+Build these four habits and you've got it.
 
 > **Program participants — before you start.** The RMBL Undergraduate Program AI policy bars AI from **writing your prose** and requires you to **cite AI use**. On data: this lab lets the assistant see your **open / lab workspace data**, but keep **sensitive, embargoed, collaborator-restricted, or human-subjects data out of any AI tool** (ask if unsure). Full details and the reasoning: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
 
@@ -74,26 +74,28 @@ The `AGENTS.tutor.md` template ([`../templates/AGENTS.tutor.md`](../templates/AG
 
 ---
 
-## A worked example
+## A worked example (start simple)
 
-**Task:** "Summarize snowmelt timing by elevation band."
+**Task:** "I have a spreadsheet of flower observations. I want the average first-flowering date for each species."
 
-❌ **Cognitive surrender:**
-> "Write R code to summarize snowmelt timing by elevation band from my data."
+❌ **Letting the AI do your thinking:**
+> "Write R code to get the average flowering date per species from my spreadsheet."
 >
-> *...pastes the 30-line response, it runs, moves on.*
+> *...pastes the code, it runs, moves on.*
 
-You now have a result you can't defend and learned nothing.
+You have a number you can't vouch for, and you learned nothing.
 
 ✅ **Partner mode:**
-1. *(Attempt)* You open the data, look at the columns, realize you need elevation bins and a melt-date column.
-2. *(Plan)* You write: "Bin elevation into 100 m classes with `cut()`, group by band, take median melt DOY. I'm unsure how `cut()` labels work."
-3. *(Ask)* "Here's my plan [above]. Is binning with `cut()` right here, and how do its labels work?"
-4. *(Explanation gate)* The assistant gives code. You read it, and comment each step: "`cut(elev, breaks=seq(...))` → makes elevation classes; `right=FALSE` → bins are [lower, upper)..." One argument you don't get — you ask about it.
-5. *(Verify)* You check: do the band counts sum to the total number of plots? Does the lowest band melt earliest? It does. Plausible.
-6. *(Note)* In your AI-use note: "AI suggested `cut()` + `group_by`/`summarise`; I chose the bin width and verified band counts."
+1. *(Try first)* You open the spreadsheet and look: there's a `species` column and a `first_flower_day` column. You think — "I need to group by species and average that column."
+2. *(Plan)* You write your plan in plain words: "Group the rows by species, then take the mean of `first_flower_day` for each group."
+3. *(Ask)* "Here's my plan [above]. Is that the right approach in R, and which function does the grouping?"
+4. *(Explain it back)* The assistant shows a few lines (using `group_by()` and `summarise()`). You read them and say, in your own words, what each line does. The one function you don't recognize, you ask about.
+5. *(Check)* You work out one species by hand from the spreadsheet and confirm the code gives the same average. It matches.
+6. *(Note)* A quick note: "AI showed me `group_by`/`summarise`; I wrote the plan and checked one species by hand."
 
-Same code. Completely different outcome for *you*.
+Same answer as the shortcut — but now you could do it again next week *without* the AI. That's the whole difference.
+
+> **A richer example (if you're further along):** same six steps, harder task — "summarize snowmelt timing by elevation band." You sketch the plan ("bin elevation into 100 m classes, group by band, take median melt day"), ask whether `cut()` is the right tool, read and comment the code it returns, then verify the band counts sum to your total number of plots and the lowest band melts earliest. The pattern doesn't change as the work gets harder — that's the point.
 
 ---
 

@@ -1,54 +1,60 @@
 # Spatial Ecology Lab — AI Assistant Guidelines
 
-Infrastructure for using AI coding assistants (the Posit Assistant in [Positron](https://positron.posit.co/), or any agent that reads `AGENTS.md`) as a **partner in learning**, not a replacement for it.
+How we use AI assistants (the Posit Assistant in [Positron](https://positron.posit.co/), or any tool that reads `AGENTS.md`) to **learn faster** — not to skip the learning.
 
-This repo is meant to be **cloned/forked by every student** at the start of the summer. It gives you:
-
-- A short **handbook** on how we work with AI in this lab.
-- **Templates** you copy into your own project (an `AGENTS.md`, a project skeleton, a `.gitignore`).
-- **Checklists** for getting set up and for keeping your work honest and reproducible.
-
-> **The one-sentence version:** Use the assistant to learn *faster*, never to think *less*. If you couldn't explain it to a labmate, you don't get to ship it.
+> **The whole idea in one line:** the assistant is a **tutor, not a ghostwriter.** Use it to learn faster, never to think less. **If you can't explain it, you don't ship it.**
 
 ---
 
-## Who this is for
+## 🚀 Start here (3 minutes)
 
-Students at every level — from undergraduates who have never taken a data science class to grad students with a few stats courses. The defaults assume **R in Positron**, the IDE and language we use most. The principles transfer to Python, the terminal, or any assistant.
+You do **not** need to read this whole repo to begin. Do these three things:
 
-## How to use this repo
+1. **Set up your tools** — follow the [onboarding checklist](checklists/onboarding-checklist.md) (Positron, R, Git/GitHub). ~1 afternoon.
+2. **Start your project** from a ready-made starter — see your track below.
+3. **Try the assistant as a tutor:** ask it to *explain* something or *quiz you*, instead of asking it to do the task for you. That one habit is most of what we're after.
 
-1. Read **[`handbook/00-start-here.md`](handbook/00-start-here.md)** first. It's the philosophy and the 10-minute version of everything else.
-2. Work through the rest of the handbook in order. It's short on purpose.
-3. When you start your own project, copy the skeleton that matches where you are: **[`templates/project-skeleton-tutor/`](templates/project-skeleton-tutor/)** if you're learning the area (the assistant coaches you), or **[`templates/project-skeleton-teammate/`](templates/project-skeleton-teammate/)** if you already own it and want to move faster (direct assistant, spec-first for big builds). Then fill in `PROJECT-BRIEF.md`.
-4. Use **[`checklists/onboarding-checklist.md`](checklists/onboarding-checklist.md)** to get your environment working in the first week.
-
-## Map of the handbook
-
-| File | What it covers |
-|------|----------------|
-| [`handbook/00-start-here.md`](handbook/00-start-here.md) | Lab philosophy: AI as partner, avoiding "cognitive surrender" |
-| [`handbook/01-git-and-github.md`](handbook/01-git-and-github.md) | Git & GitHub from scratch, in Positron |
-| [`handbook/02-writing-agents-md.md`](handbook/02-writing-agents-md.md) | How to write an `AGENTS.md` that helps you *and* makes you a better scientist |
-| [`handbook/03-working-with-the-assistant.md`](handbook/03-working-with-the-assistant.md) | Day-to-day work patterns that keep you in the driver's seat |
-| [`handbook/04-documenting-ai-use.md`](handbook/04-documenting-ai-use.md) | Lightweight, honest records of how you used AI |
-| [`handbook/05-rmbl-ed-policy.md`](handbook/05-rmbl-ed-policy.md) | How this fits the RMBL Undergraduate Program AI policy (read if you're a program participant) |
-| [`handbook/06-spec-driven-development.md`](handbook/06-spec-driven-development.md) | Spec-first workflow for bigger projects (for grad students / senior techs) |
-| [`reference/lab-context.md`](reference/lab-context.md) | Lab research themes, glossary, and canonical data/tools |
-| [`reference/rmbl-data-hub.md`](reference/rmbl-data-hub.md) | The RMBL Data Hub tools (Knowledge Commons, SDP Browser, Compute Hub) and how to use them |
-| [`reference/evidence-base.md`](reference/evidence-base.md) | The cited research behind *why* we work this way |
-
-## Templates
-
-| Path | What it is |
-|------|------------|
-| [`templates/project-skeleton-tutor/`](templates/project-skeleton-tutor/) | Starter R project, **tutor mode** — for learning an area (assistant coaches you) |
-| [`templates/project-skeleton-teammate/`](templates/project-skeleton-teammate/) | Starter R project, **teammate mode** — for areas you own (direct assistant + `SPEC.md`) |
-| [`templates/AGENTS.tutor.md`](templates/AGENTS.tutor.md) | The "teach me, don't just do it" `AGENTS.md` (already in the tutor skeleton) |
-| [`templates/AGENTS.starter.md`](templates/AGENTS.starter.md) | The teammate-mode `AGENTS.md` (already in the teammate skeleton) |
-| [`templates/PROJECT-BRIEF.md`](templates/PROJECT-BRIEF.md) | Distill your project — and sort its context into "plumbing for the AI" vs. "thinking you keep" |
-| [`templates/SPEC.md`](templates/SPEC.md) | Spec one substantial build (pipeline/package) before the assistant implements it |
+That's it. Come back to the handbook as questions come up — it's a reference, not a reading list.
 
 ---
 
-*Maintained by the Spatial Ecology Lab. Suggestions welcome — open an issue or a pull request (that's good Git practice anyway).*
+## Pick your track
+
+Most things in this repo are optional depending on where you are. Find yourself below.
+
+### 🌱 New to coding / data science
+*(most first-summer undergrads)*
+
+- Start your project from **[`templates/project-skeleton-tutor/`](templates/project-skeleton-tutor/)** — the assistant is set up to *coach* you.
+- Read just two short docs, as you go: **[working with the assistant](handbook/03-working-with-the-assistant.md)** and **[Git basics](handbook/01-git-and-github.md)**.
+- Skip the rest for now. You'll know when you need it.
+
+### 🚀 Comfortable with R and Git already
+*(graduate students, senior technicians)*
+
+- Start from **[`templates/project-skeleton-teammate/`](templates/project-skeleton-teammate/)** — the assistant is more direct, and set up for bigger builds.
+- Read the full handbook, including **[writing your own `AGENTS.md`](handbook/02-writing-agents-md.md)** and **[spec-driven development](handbook/06-spec-driven-development.md)**.
+
+> Not sure which? Start with 🌱 tutor mode — it's easy to switch up later, and choosing it with your supervisor is part of the first-week check-in.
+
+---
+
+## The handbook (read what you need, when you need it)
+
+| Doc | When you need it |
+|------|------------------|
+| [00 — Start here](handbook/00-start-here.md) | **Everyone**, once — the *why*, in 10 minutes |
+| [03 — Working with the assistant](handbook/03-working-with-the-assistant.md) | **Everyone** — the core day-to-day habits |
+| [01 — Git & GitHub](handbook/01-git-and-github.md) | **Everyone**, week one — saving and sharing your work |
+| [04 — Documenting AI use](handbook/04-documenting-ai-use.md) | When you produce a result or report to share |
+| [02 — Writing an `AGENTS.md`](handbook/02-writing-agents-md.md) | When you want to tune how the assistant helps you |
+| [05 — RMBL Ed program policy](handbook/05-rmbl-ed-policy.md) | If you're in the RMBL Undergraduate Program |
+| [06 — Spec-driven development](handbook/06-spec-driven-development.md) | Advanced: bigger pipelines/packages (grad students, senior techs) |
+
+**Look-up references (not reading material):** [lab context & glossary](reference/lab-context.md) · [RMBL Data Hub tools](reference/rmbl-data-hub.md) · [the research behind our approach](reference/evidence-base.md)
+
+**Templates** (the starters above already include the ones you need): [`AGENTS.tutor.md`](templates/AGENTS.tutor.md) · [`AGENTS.starter.md`](templates/AGENTS.starter.md) · [`PROJECT-BRIEF.md`](templates/PROJECT-BRIEF.md) · [`SPEC.md`](templates/SPEC.md)
+
+---
+
+*Maintained by the Spatial Ecology Lab. The defaults assume R in Positron; the ideas transfer to Python or any assistant. Suggestions welcome — open an issue or a pull request (that's good Git practice anyway).*

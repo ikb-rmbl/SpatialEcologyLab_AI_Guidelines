@@ -3,9 +3,10 @@
 Work top to bottom. None of this should take more than an afternoon or two. Ask a human the moment you're stuck for more than ~15 minutes — that's a rule, not a weakness.
 
 ## Day 1 — Read & orient
-- [ ] Read [`handbook/00-start-here.md`](../handbook/00-start-here.md) (10 min — the whole philosophy).
-- [ ] Skim the rest of the handbook so you know what's there.
-- [ ] Understand the one rule: **if you can't explain it, you don't ship it.**
+- [ ] Read the **[README](../README.md)** "Start here" section and pick your track (🌱 new to coding, or 🚀 already comfortable).
+- [ ] Read [`handbook/00-start-here.md`](../handbook/00-start-here.md) (10 min — the *why*).
+- [ ] Glance at the README's handbook map so you know what *exists* — you'll read the rest as you need it, not all at once.
+- [ ] Remember the one rule: **if you can't explain it, you don't ship it.**
 - [ ] **If you're in the RMBL Undergraduate Program:** read [`handbook/05-rmbl-ed-policy.md`](../handbook/05-rmbl-ed-policy.md) — especially *don't have AI write your prose, formally cite AI use, and keep sensitive data out of AI tools.*
 
 ## Set up your tools
