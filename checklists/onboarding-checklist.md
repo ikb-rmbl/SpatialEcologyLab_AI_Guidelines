@@ -7,7 +7,7 @@ Work top to bottom. None of this should take more than an afternoon or two. Ask 
 - [ ] Read [`handbook/00-start-here.md`](../handbook/00-start-here.md) (10 min — the *why*).
 - [ ] Glance at the README's handbook map so you know what *exists* — you'll read the rest as you need it, not all at once.
 - [ ] Remember the one rule: **if you can't explain it, you don't ship it.**
-- [ ] **If you're in the RMBL Undergraduate Program:** read [`handbook/05-rmbl-ed-policy.md`](../handbook/05-rmbl-ed-policy.md) — especially *don't have AI write your prose, formally cite AI use, and keep sensitive data out of AI tools.*
+- [ ] **If you're in the RMBL Undergraduate Program:** read [`handbook/05-rmbl-ed-policy.md`](../handbook/05-rmbl-ed-policy.md) — especially *do your R coding workshop assignments AI-free, don't have AI write your prose, and cite AI use.*
 
 ## Set up your tools
 - [ ] Install **Positron** ([positron.posit.co](https://positron.posit.co/)).

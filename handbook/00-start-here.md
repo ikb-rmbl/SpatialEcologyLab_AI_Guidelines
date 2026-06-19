@@ -18,7 +18,7 @@ So the deal is simple:
 
 The goal isn't to avoid AI. It's to use it the way a good mentor would: clearing dead-ends and explaining things, while leaving the real thinking — the part that makes *you* better — to you.
 
-> **In the RMBL Undergraduate Program?** It has its own AI rules you must follow — most importantly: **don't let AI write your prose, cite any AI use, and keep sensitive data out of AI tools.** See [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md) before you start.
+> **In the RMBL Undergraduate Program?** It has its own AI rules you must follow — most importantly: **do your R coding workshop assignments AI-free** (on your own, until they're turned in), **don't let AI write your prose, and cite any AI use.** See [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md) before you start.
 
 ---
 

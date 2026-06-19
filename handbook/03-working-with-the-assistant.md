@@ -10,7 +10,7 @@ This is the practical core of the handbook: the actual moves you make, day to da
 
 Build these four habits and you've got it.
 
-> **Program participants — before you start.** The RMBL Undergraduate Program AI policy bars AI from **writing your prose** and requires you to **cite AI use**. On data: this lab lets the assistant see your **open / lab workspace data**, but keep **sensitive, embargoed, collaborator-restricted, or human-subjects data out of any AI tool** (ask if unsure). Full details and the reasoning: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
+> **Program participants — before you start.** Your **R coding workshop assignments are AI-free**: do them solo and turn them in *before* using the assistant on that material. Beyond those, AI must not **write your prose** and you must **cite AI use**; the assistant may see your **open / lab workspace data**, but keep **sensitive, embargoed, collaborator-restricted, or human-subjects data** out of any AI tool. Full details: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
 
 ### Pattern 1 — Attempt first (the 10-minute rule)
 
