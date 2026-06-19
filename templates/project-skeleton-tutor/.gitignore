@@ -1,0 +1,47 @@
+# --- Spatial Ecology Lab R project .gitignore ---
+# Goal: commit code, never commit big data or secrets.
+
+# Secrets — NEVER commit these
+.Renviron
+.env
+*.pem
+aws.credentials
+**/secrets/
+
+# R session / IDE clutter
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj          # remove this line if you want to track the .Rproj file
+
+# renv: track the lockfile, ignore the installed library
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+# (renv.lock is NOT ignored — it should be committed)
+
+# Derived / large data — regenerate these by running code instead of committing them
+# (ignore the contents but keep the empty folders via .gitkeep)
+data/derived/*
+!data/derived/.gitkeep
+data/intermediate/
+output/*
+!output/.gitkeep
+*.tif
+*.tiff
+*.gpkg
+*.parquet
+*.nc
+*.zip
+*.RDS         # comment out if you intentionally version small .RDS artifacts
+
+# Keep canonical small inputs by un-ignoring them explicitly, e.g.:
+# !data/raw/site_list.csv
+
+# OS clutter
+.DS_Store
+Thumbs.db

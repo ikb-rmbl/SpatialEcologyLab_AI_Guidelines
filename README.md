@@ -20,7 +20,7 @@ Students at every level — from undergraduates who have never taken a data scie
 
 1. Read **[`handbook/00-start-here.md`](handbook/00-start-here.md)** first. It's the philosophy and the 10-minute version of everything else.
 2. Work through the rest of the handbook in order. It's short on purpose.
-3. When you start your own project, copy **[`templates/project-skeleton/`](templates/project-skeleton/)** as your starting point and fill in the `AGENTS.md`.
+3. When you start your own project, copy the skeleton that matches where you are: **[`templates/project-skeleton-tutor/`](templates/project-skeleton-tutor/)** if you're learning the area (the assistant coaches you), or **[`templates/project-skeleton-teammate/`](templates/project-skeleton-teammate/)** if you already own it and want to move faster (direct assistant, spec-first for big builds). Then fill in `PROJECT-BRIEF.md`.
 4. Use **[`checklists/onboarding-checklist.md`](checklists/onboarding-checklist.md)** to get your environment working in the first week.
 
 ## Map of the handbook
@@ -42,9 +42,10 @@ Students at every level — from undergraduates who have never taken a data scie
 
 | Path | What it is |
 |------|------------|
-| [`templates/project-skeleton/`](templates/project-skeleton/) | A minimal R analysis project you copy to start |
-| [`templates/AGENTS.starter.md`](templates/AGENTS.starter.md) | A fill-in-the-blanks `AGENTS.md` for a brand-new project |
-| [`templates/AGENTS.tutor.md`](templates/AGENTS.tutor.md) | A "teach me, don't just do it" `AGENTS.md` for when you're learning a new skill |
+| [`templates/project-skeleton-tutor/`](templates/project-skeleton-tutor/) | Starter R project, **tutor mode** — for learning an area (assistant coaches you) |
+| [`templates/project-skeleton-teammate/`](templates/project-skeleton-teammate/) | Starter R project, **teammate mode** — for areas you own (direct assistant + `SPEC.md`) |
+| [`templates/AGENTS.tutor.md`](templates/AGENTS.tutor.md) | The "teach me, don't just do it" `AGENTS.md` (already in the tutor skeleton) |
+| [`templates/AGENTS.starter.md`](templates/AGENTS.starter.md) | The teammate-mode `AGENTS.md` (already in the teammate skeleton) |
 | [`templates/PROJECT-BRIEF.md`](templates/PROJECT-BRIEF.md) | Distill your project — and sort its context into "plumbing for the AI" vs. "thinking you keep" |
 | [`templates/SPEC.md`](templates/SPEC.md) | Spec one substantial build (pipeline/package) before the assistant implements it |
 

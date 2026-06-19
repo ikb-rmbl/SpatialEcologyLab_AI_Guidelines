@@ -38,11 +38,11 @@ Work top to bottom. None of this should take more than an afternoon or two. Ask 
 - [ ] If you'll need cloud compute, ask your supervisor to add your GitHub username to the [Compute Hub](https://rmblcomputehub.org) allowlist.
 
 ## Start your project
-- [ ] Copy [`templates/project-skeleton/`](../templates/project-skeleton/) into a new folder under `~/code/`.
+- [ ] Pick your skeleton with your supervisor: [`templates/project-skeleton-tutor/`](../templates/project-skeleton-tutor/) if you're learning the area (most first-summer students), or [`templates/project-skeleton-teammate/`](../templates/project-skeleton-teammate/) if you already own it. Copy it into a new folder under `~/code/`.
 - [ ] Make it a Git repo and push it to the lab org (see the Git guide, "Starting a repository").
 - [ ] Confirm your `.gitignore` is working: add a dummy big file to `output/` and check `git status` ignores it.
 - [ ] Fill in `PROJECT-BRIEF.md` with your supervisor — including the two lists at the bottom (plumbing vs. thinking).
-- [ ] Open the `AGENTS.md` (it's tutor mode by default), fill in project/stack, and copy in **only** the "plumbing" pile from your brief. Commit both.
+- [ ] Open the `AGENTS.md` (already set to your skeleton's mode), fill in project/stack, and copy in **only** the "plumbing" pile from your brief. Commit both.
 
 ## Set up good AI habits
 - [ ] Read [`handbook/03-working-with-the-assistant.md`](../handbook/03-working-with-the-assistant.md) and note the four patterns.

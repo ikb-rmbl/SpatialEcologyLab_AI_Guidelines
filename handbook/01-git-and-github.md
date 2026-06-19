@@ -107,7 +107,7 @@ git commit -m "Initial commit"
 git push -u origin main
 ```
 
-> **Before your first commit, add a `.gitignore`.** Use the one in [`templates/project-skeleton/.gitignore`](../templates/project-skeleton/.gitignore). It keeps large data, secrets, and clutter *out* of Git — see the next section.
+> **Before your first commit, add a `.gitignore`.** Both project skeletons include one (e.g. [`templates/project-skeleton-tutor/.gitignore`](../templates/project-skeleton-tutor/.gitignore)). It keeps large data, secrets, and clutter *out* of Git — see the next section.
 
 ---
 

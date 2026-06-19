@@ -90,11 +90,10 @@ You can even scope modes by topic, e.g. "Socratic for stats and modeling; direct
 
 ## How to create one
 
-1. Copy a template into your project root as `AGENTS.md`:
+1. Easiest: start from a [project skeleton](../templates/) — each one already ships the right `AGENTS.md` (the **tutor** skeleton has tutor mode; the **teammate** skeleton has teammate mode). Just edit it. If you're adding `AGENTS.md` to an existing project instead, copy the matching template:
    ```bash
-   cp ~/path/to/AI_Guidelines/templates/AGENTS.tutor.md ./AGENTS.md
+   cp ~/path/to/AI_Guidelines/templates/AGENTS.tutor.md ./AGENTS.md   # or AGENTS.starter.md for teammate mode
    ```
-   (The project skeleton already includes a starter `AGENTS.md` — edit that.)
 2. Fill in the project/stack/conventions sections. Delete what doesn't apply.
 3. Commit it. It's part of the project and should be versioned:
    ```bash
