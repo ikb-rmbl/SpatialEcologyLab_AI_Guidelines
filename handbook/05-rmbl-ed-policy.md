@@ -80,10 +80,18 @@ So most of this handbook is simply *how* to live up to the program policy. The d
 
 The program's earlier blanket "no uploading any data" line is **being revised**. Per the program coordinators, the real concern was making sure undergrads complete the **workshop assignments** on their own (covered above) — not stopping a coding assistant from seeing the open data in your project. So, **outside the AI-free workshop assignments:**
 
-- The lab works only with **open, published, or otherwise non-proprietary data**, and uses **workspace-aware tools and infrastructure with appropriate protections** (Positron and the [Data Hub](../reference/rmbl-data-hub.md)).
+- The lab works only with **open, published, or otherwise non-proprietary data**.
 - **Letting the assistant see the data in your workspace is fine.** You can point it at your files, paste a few rows to debug, and let it inspect your data frames.
 
-**Still off-limits — never share these with any AI tool:**
+**How your data is protected.** The lab runs the Assistant through a **paid Claude API key**, not a free consumer chatbot. We use paid API access specifically because it comes with Anthropic's commercial terms, under which **the prompts, code, and data you send are not used to train their models.** Free consumer chat tools don't necessarily give you that.
+
+To be clear about what this is and isn't:
+
+- ✅ Your work **won't be absorbed into a training set.** That's the protection we're paying for and the reason workspace data sharing is OK here.
+- ⚠️ It is **not** Zero Data Retention — we don't have (or need) that. Your data may still be held briefly under Anthropic's standard retention (e.g., for abuse monitoring), and this isn't a formal legal data-protection guarantee.
+- 🔒 It **doesn't override the limits below.** No-training terms don't make it OK to send someone else's restricted data or human-subjects data to an outside service.
+
+**Still off-limits — never share these with any AI tool, training terms notwithstanding:**
 - Embargoed or not-yet-published data you've agreed to keep private
 - Data from outside collaborators that came to you with restrictions
 - Human-subjects data or any personally identifying information (PII)

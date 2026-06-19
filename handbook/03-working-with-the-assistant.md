@@ -10,6 +10,8 @@ This is the practical core of the handbook: the actual moves you make, day to da
 
 Build these four habits and you've got it.
 
+> **Is your data safe with the assistant?** For the open data we work with, yes. The lab runs the Assistant on a **paid Claude API key**, whose terms mean your prompts and data **are not used to train the model** — that's why letting it see your workspace data is fine here (free consumer chat tools don't necessarily give you that). It's *not* Zero Data Retention, just a no-training guarantee — so still keep genuinely sensitive or restricted data out of any AI tool. Details: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
+
 > **Program participants — before you start.** Your **R coding workshop assignments are AI-free**: do them solo and turn them in *before* using the assistant on that material. Beyond those, AI must not **write your prose** and you must **cite AI use**; the assistant may see your **open / lab workspace data**, but keep **sensitive, embargoed, collaborator-restricted, or human-subjects data** out of any AI tool. Full details: [`05-rmbl-ed-policy.md`](05-rmbl-ed-policy.md).
 
 ### Pattern 1 — Attempt first (the 10-minute rule)
