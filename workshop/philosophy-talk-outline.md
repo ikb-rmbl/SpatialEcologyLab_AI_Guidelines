@@ -1,5 +1,7 @@
 # Slide outline — "AI as a Partner, Not a Replacement"
 
+> **Rendered slides:** [`philosophy-talk.html`](philosophy-talk.html) (self-contained; open in a browser). This outline is the source/script behind them.
+
 A ~15-minute, high-level talk on the *philosophy* behind the lab AI handbook. No step-by-step — the hands-on portion covers mechanics. ~13 slides, ~1–1.5 min each.
 
 **Audience:** mixed (first-summer undergrads → grad students). Keep jargon low; let the pull-quotes do the work.
